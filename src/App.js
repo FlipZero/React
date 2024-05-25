@@ -1,9 +1,14 @@
 import logo from './logo.svg';
+import Bar from './Bar.js';
+import Search from './Search.js';
+import Icon from './Icon.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Search/>
+      <Icon/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
