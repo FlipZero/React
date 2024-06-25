@@ -1,0 +1,14 @@
+.header {
+    background: linear-gradient(to right, red, blue);
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title {
+    flex-grow: 1;
+    text-align: center;
+  }
+  

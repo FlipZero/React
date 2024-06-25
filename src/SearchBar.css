@@ -1,0 +1,9 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .text{
+    font-style: oblique;
+    width: 60%;
+  }
