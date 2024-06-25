@@ -20,10 +20,10 @@ const RecipeCard = ({ recipe }) => {
         </Typography>
         <div className="recipe-info">
           <Typography variant="body2" color="textSecondary">
-            Calories: {Math.round(calories)}
+            Kalorie: {Math.round(calories)}
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            Ingredients: {ingredientLines.length}
+            Składniki: {ingredientLines.length}
           </Typography>
         </div>
       </CardContent>

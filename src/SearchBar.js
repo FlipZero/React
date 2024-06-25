@@ -14,13 +14,13 @@ const SearchBar = ({ onSearch }) => {
       <TextField
         className="text"
         variant="outlined"
-        placeholder="Search for recipes..."
+        placeholder="Szukaj przepisów..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
       />
       <Button variant="contained" color="primary" onClick={handleSearch}>
-        Search
+        Szukaj
       </Button>
     </div>
   );

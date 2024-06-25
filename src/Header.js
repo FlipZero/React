@@ -7,7 +7,7 @@ const Header = () => {
     <AppBar position="static" className="header">
       <Toolbar className="toolbar">
         <Typography variant="h6" className="title">
-          Recipe Search
+          Wyszukiwarka Przepisów
         </Typography>
       </Toolbar>
     </AppBar>
